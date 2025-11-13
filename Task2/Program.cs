@@ -1,10 +1,15 @@
 ﻿namespace Task2
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            NullOperations nullOps = new NullOperations();
+
+            Console.WriteLine("Null Operations");
+            nullOps.PerformNullChecks();
+
+            Console.WriteLine("Null operation checks executed successfully!");
         }
     }
 }
